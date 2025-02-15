@@ -22,3 +22,4 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/dkalog/choco-scripts/refs/heads/main/school-1.ps1'))```
 
 https://raw.githubusercontent.com/dkalog/choco-scripts/refs/heads/main/install-choco-and-new-laptop-software.ps1
+
