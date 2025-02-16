@@ -20,12 +20,12 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 ### Installing chocolatey and software for a school 1
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/dkalog/choco-scripts/refs/heads/main/school-1.ps1'))```
-
 https://raw.githubusercontent.com/dkalog/choco-scripts/refs/heads/main/install-choco-and-new-laptop-software.ps1
+```
+### On a NON elevated power-shell terminal Install chocolatey via:
 
-### As a NON elevated power-shell terminal to install choco package manager
 
-## Installing chocolatey
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/ChocolateyInstallNonAdmin.ps1'))
 ```
+
