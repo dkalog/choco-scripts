@@ -1,6 +1,5 @@
- Open an elevated power-shell terminal to install choco package manager
 
-## Installing chocolatey
+## Elevated power-shell terminal Installation of  chocolatey
 ```
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
 ```
@@ -22,7 +21,7 @@ Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManage
 Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://raw.githubusercontent.com/dkalog/choco-scripts/refs/heads/main/school-1.ps1'))```
 https://raw.githubusercontent.com/dkalog/choco-scripts/refs/heads/main/install-choco-and-new-laptop-software.ps1
 ```
-### On a NON elevated power-shell terminal Install chocolatey via:
+### NON elevated power-shell terminal Installation of chocolatey via:
 
 
 ```
